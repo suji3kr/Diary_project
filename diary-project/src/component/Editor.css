@@ -38,3 +38,8 @@ textarea {
     justify-content: space-between;  /* 가운데에 공간을 줘(좌우로가) */
     align-items: center;
 }
+.Editor .emotion_list_wrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+}

@@ -5,9 +5,13 @@ const Home = () => {
     return (
         <div>
             <Editor
-            onSubmit={()=> {
-                alert("작성 완료 버튼을 클릭했어요 ! ")
-            }} />
+            initData={{
+                date: new Date().getTime(),
+                emotionId: 1,
+                content: "이전에 작성한 일기... (*/ω＼*) ",
+            }}
+            onSubmit={()=> alert("작성 완료 🍕")
+            } />
         </div>
     );
 

@@ -35,3 +35,34 @@ export const getFormattedDate = (targetDate) => {
     return `${year}-${month}-${date}`;
 
 };
+
+export const emotionList =[
+  {
+    id:1,
+    name: "Great",
+    img: getEmotionImgById(1),
+  },
+  {
+    id:2,
+    name: "Good",
+    img: getEmotionImgById(2),
+  },
+  
+  {
+    id:3,
+    name: "So so",
+    img: getEmotionImgById(3),
+  },
+  
+  {
+    id:4,
+    name: "Bad",
+    img: getEmotionImgById(4),
+  },
+  {
+    id:5,
+    name: "Terrible",
+    img: getEmotionImgById(5),
+  },
+  
+];
