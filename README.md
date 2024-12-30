@@ -24,16 +24,16 @@
 
       
 <br>
-      버튼이 반응하는 지 확인 하기 위해 랜더링 경고창 확인한다 alert ("hi)
+      버튼이 반응하는 지 확인 하기 위해 랜더링 경고창 확인한다 alert ("hi")
 <br><br>
 
+![화면 캡처 2024-12-26 094617](https://github.com/user-attachments/assets/4cb5d5e7-bd2c-4bf0-a865-551d21d20b57)
 
-![화면 캡처 2024-12-26 094553](https://github.com/user-attachments/assets/de801b12-ef7b-46f1-ab35-3cbb2ef4a2e1) 
 
 <br>
 
+![화면 캡처 2024-12-26 094553](https://github.com/user-attachments/assets/de801b12-ef7b-46f1-ab35-3cbb2ef4a2e1) 
 
-![화면 캡처 2024-12-26 094617](https://github.com/user-attachments/assets/4cb5d5e7-bd2c-4bf0-a865-551d21d20b57)
 
 <br>
 
@@ -56,9 +56,7 @@
       
 <br><br>
       
-      Button.css먼저 추가 수정한 후
-      
-<br><br>
+Button.css먼저 추가 수정한 후
 
       
       .Button_default {
@@ -80,7 +78,9 @@
 <br><br>
       
       
-      Home.jsx
+Home.jsx
+<br>
+
       const Home = () => {
           return (
               <div>
@@ -117,8 +117,13 @@
 버튼 종류가 모두 확인 가능한지 확인
 
 <br>
+<br>
 
 #### 피그마로 디자인 작업
+
+<br>
+
+![화면 캡처 2024-12-26 100123](https://github.com/user-attachments/assets/a304b16b-e1dc-4695-a1d1-2b1a8e407fe1)
 
 <br>
 
@@ -168,23 +173,20 @@
 <br>
 <br>
 
-![화면 캡처 2024-12-26 100123](https://github.com/user-attachments/assets/a304b16b-e1dc-4695-a1d1-2b1a8e407fe1)
+![화면 캡처 2024-12-26 112554](https://github.com/user-attachments/assets/bcecf3be-6c1d-4c31-8748-8c5d28eda4d1)
 
 <br>
-      <div className="editor_section bottom_section">
-                      <Button text={"취소하기"}/>
-                      <Button text={"작성 완료"} type={"positive"}/>
-                      {/* 작성 완료, 취소*/}
-                  </div>
-      
-      버튼 추가 해서 작성완료 버튼 만들기
-
-      
 <br>
+Editor.css
+                  <div className="editor_section bottom_section">
+                                  <Button text={"취소하기"}/>
+                                  <Button text={"작성 완료"} type={"positive"}/>
+                                  {/* 작성 완료, 취소*/}
+                              </div>
+
 <br>
-
-
-![화면 캡처 2024-12-26 105331](https://github.com/user-attachments/assets/5223b2ca-f591-4221-9d8f-e28cf26bef9e)
+버튼 추가 해서 작성완료 버튼 만들기
+<br>
 
 <br>
       후에 기능 구현 코드를 만든다..! 
@@ -204,24 +206,23 @@
 <br>
 <br>
 
-      Home.jsx
-      const Home = () => {
-          return (
-              <div>
-                  <Editor
-                  onSubmit={()=> {
-                      alert("작성 완료 버튼을 클릭했어요 ! ")
-                  }} />
-              </div>
-          );
-      
-      };
+Home.jsx
+<br>
+
+                  const Home = () => {
+                      return (
+                          <div>
+                              <Editor
+                              onSubmit={()=> {
+                                  alert("작성 완료 버튼을 클릭했어요 ! ")
+                              }} />
+                          </div>
+                      );
+                  
+                  };
 
       
 <br>
-<br>
-
-![화면 캡처 2024-12-26 112554](https://github.com/user-attachments/assets/bcecf3be-6c1d-4c31-8748-8c5d28eda4d1)
 
 <br>
 
